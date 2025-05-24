@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Estructura del Ejercicio final-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina principal</title>
+    <link rel="stylesheet" href="style-10.css">
+</head>
+<body>
+
+    <section id="form">
+        <h3>Form</h3>
+        <form>
+            <label for="name">Nombre</label>
+            <br>
+            <input type="text" placeholder="Nombre Completo" id="name" required>
+            <br>
+            <br> 
+            <label for="email">Email</label>
+            <br>
+            <input type="email" placeholder="Email" id="email" required>
+            <br>
+            <br>
+            <label for="pass" >Contraseña</label>
+            <br>
+            <input type="password" placeholder="Password" id="pass" required>
+            <br>
+            <br>
+            <label for="message">Mensaje</label>
+            <br>
+            <textarea id="message" maxlength="300" minlength="50" placeholder="Max 300"></textarea>
+            <br> 
+            <button type="submit">Enviar</button>
+            <button type="reset">Reset</button>
+        </form>
+    </section>
+    <hr>
+    <!--*******************************************************************************************************-->
+    <section id="other">
+        <h3>Other forms</h3>      
+        <div class="container">
+            <label for="fruits">Select one option</label>
+            <select id="fruits">
+                <option value="">--Select--</option>
+                <option value="manzana">Manzana</option>
+                <option value="pera">Pera</option>
+                <option value="banana">Banano</option>
+            </select>
+        </div>
+        <br>
+        <div class="container">
+            <label for="chocolate">Do you like chocolate?</label>
+            <input type="checkbox" value="chocolate" id="chocolate">
+        </div>
+        <br>
+        <div class="container">
+            <fieldset style="width:150px;">
+                <legend>Select a car</legend>
+                <br>
+                <input type="radio" value="Mazda" id="Mazda" name="cars">
+                <label for="Mazda">Mazda</label>
+                <br>
+                <input type="radio" value="Chevrolet" id="Chevrolet" name="cars">
+                <label for="Chevrolet">Chevrolet</label>
+                <br>
+                <input type="radio" value="Ferrari" id="Ferrari" name="cars">
+                <label for="Chevrolet">Chevrolet</label>
+                
+            </fieldset>
+        </div>
+    </section>    
+<!--Estructura semantica-->
+</body>
+</html> 

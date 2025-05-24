@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input, textarea {
+            border-radius: 5%;
+            margin: 3px;
+            background-color: #f0f0f5;
+        }
+    </style>
+</head>
+<body>
+    <section id="contact">
+        <div class="container">
+            <form>
+                <label for="name">Nombre</label>
+                <br>
+                <input type="text" placeholder="Nombre Completo" required>
+                <br>
+                <br>
+
+                <label for="email">Email</label>
+                <br>
+                <input type="email" placeholder="Email" required="@">
+                <br>
+                <br>
+                <label for="pass" >Contraseña</label>
+                <br>
+                <input type="password" placeholder="Password" required>
+                <br>
+                <br>
+                <label for="message">Mensaje</label>
+                <br>
+                <textarea id="message" maxlength="300" minlength="50" placeholder="Max 300"></textarea>
+                <br>
+
+                <button type="submit">Enviar</button>
+                <button type="reset">Reset</button>
+                <br>
+                <p>Select one option</p>
+                <select id="fruits">
+                    <div id="container">
+                        <option value="">--Select--</option>
+                        <option value="manzana">Manzana</option>
+                        <option value="pera">Pera</option>
+                        <option value="banana">Banano</option>
+                    </div>
+                </select>
+                <br>
+                <label for="chocholate">Te gusta el chocolate?</label>
+                <input type="checkbox" value="chocholate" id="choc">
+                <br>
+                <fieldset style="width:150px;">
+                    <legend>Select a car</legend>
+
+                    <div>
+                        <input type="r
+                        adio" value="Mazda" id="Mazda" name="cars">
+                        <label for="Mazda">Mazda</label>
+                    </div>
+                    <div>
+                        <input type="radio" value="Chevrolet" id="Chevrolet" name="cars">
+                        <label for="Chevrolet">Chevrolet</label>
+                    </div>
+                     <div>
+                        <input type="radio" value="Chevrolet" id="Chevrolet" name="cars">
+                        <label for="Chevrolet">Chevrolet</label>
+                    </div>
+                </fieldset>
+                
+
+                
+            </form>
+        </div>
+    </section>
+    <!--Punto 8 ya esta-->
+    <!--Punto 9 ya esta-->
+</body>
+</html> 

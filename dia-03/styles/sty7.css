@@ -1,0 +1,14 @@
+body {
+    margin: 30px;
+
+}
+nav {
+    background-color: red;
+}
+
+.ul-navs {
+    display: inline-block
+}
+item {
+    padding: 30px;
+}
